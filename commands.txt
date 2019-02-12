@@ -1,0 +1,23 @@
+Commands
+
+//Crea un entorno virtual para el proyecto
+$  virtualenv <nombreentornoENV>
+
+
+//Inicia el entorno virtual
+$ Scripts\activate
+
+//Instalar Django
+$ python -m pip install django
+
+//Iniciar un proyecto en Django
+$ django-admin startproject <nombreproyecto>
+
+//Crea una aplicacion
+$ python manage.py startapp <nombreapp>
+
+//Instalar dependencias necesarias
+$ pip install django-cors-headers djangorestframework djongo pymongo
+
+//Ejecutar las migraciones
+$ python manage.py makemigrations
